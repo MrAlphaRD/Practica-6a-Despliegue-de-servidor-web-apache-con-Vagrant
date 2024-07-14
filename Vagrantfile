@@ -36,7 +36,7 @@ Vagrant.configure("2") do |config|
     end
     
     # Compartir carpeta local con el servidor web
-    config.vm.synced_folder "./codigo_html", "/var/www/html"
+    config.vm.synced_folder "./html", "/var/www/html"
     
   end
   
